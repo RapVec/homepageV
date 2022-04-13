@@ -1,0 +1,83 @@
+  .title {
+    color: #ea00ff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "FOT-OedKtr Std E";
+  }
+  .fin{
+    color: #ea00ff;
+  }
+  .title2 {
+    color: #ea00ff;
+    font-size: 30px;
+    font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+    border: 20px solid;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-top: transparent;
+  }
+    .naiyou {
+      color: #ea00ff;
+      font-size: 20px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+  }
+    .ziko{
+    border: 5px solid;
+  }
+    .MIDASI{
+    color: #ea00ff;
+    font-size: 23px;
+    font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+  }
+  div.header {
+    text-align: center; 
+  } 
+  .gif{
+    width: 640px;
+    height: 360px;
+  }
+  #page{
+    width: 300px;
+    height: 170px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color:   rgb(210, 232, 247); 
+    box-sizing: border-box;
+    list-style:none;
+  }
+  #page2{
+    list-style:none;
+  }
+  #page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #ef3f98;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
